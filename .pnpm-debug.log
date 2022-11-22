@@ -1,0 +1,611 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {},
+    "prefix": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "/home/theia/.pnpm-store/v3",
+    "virtualStoreDir": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5/node_modules/.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/eslint"
+  },
+  "5 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/eslint"
+  },
+  "6 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/eslint: request to https://registry.npmjs.org/eslint failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/eslint: request to https://registry.npmjs.org/eslint failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "7 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/eslint.json",
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/eslint/8.28.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "eslint",
+      "rawSpec": "latest"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/eslint/8.28.0",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "10 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@humanwhocodes%2Fconfig-array"
+  },
+  "11 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@eslint%2Feslintrc"
+  },
+  "12 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/debug"
+  },
+  "13 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/doctrine"
+  },
+  "14 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/chalk"
+  },
+  "15 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/ajv"
+  },
+  "16 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/cross-spawn"
+  },
+  "17 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/escape-string-regexp"
+  },
+  "18 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/eslint-scope"
+  },
+  "19 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/eslint-visitor-keys"
+  },
+  "20 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/espree"
+  },
+  "21 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/esquery"
+  },
+  "22 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer"
+  },
+  "23 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/@nodelib%2Ffs.walk"
+  },
+  "24 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/eslint-utils"
+  },
+  "25 debug pnpm:request-retry": {
+    "attempt": 1,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 10000,
+    "url": "https://registry.npmjs.org/esutils"
+  },
+  "26 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@humanwhocodes%2Fconfig-array"
+  },
+  "27 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/doctrine"
+  },
+  "28 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/debug"
+  },
+  "29 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@eslint%2Feslintrc"
+  },
+  "30 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/ajv"
+  },
+  "31 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/chalk"
+  },
+  "32 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/eslint-scope"
+  },
+  "33 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/espree"
+  },
+  "34 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/cross-spawn"
+  },
+  "35 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/escape-string-regexp"
+  },
+  "36 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer"
+  },
+  "37 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/eslint-utils"
+  },
+  "38 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/esquery"
+  },
+  "39 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/eslint-visitor-keys"
+  },
+  "40 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/@nodelib%2Ffs.walk"
+  },
+  "41 debug pnpm:request-retry": {
+    "attempt": 2,
+    "error": {
+      "type": "system",
+      "errno": "ECONNRESET",
+      "code": "ECONNRESET"
+    },
+    "maxRetries": 2,
+    "method": "GET",
+    "timeout": 60000,
+    "url": "https://registry.npmjs.org/esutils"
+  },
+  "42 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/@eslint%2Feslintrc: request to https://registry.npmjs.org/@eslint%2Feslintrc failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/@eslint%2Feslintrc: request to https://registry.npmjs.org/@eslint%2Feslintrc failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "43 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/@eslint/eslintrc.json",
+  "44 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@eslint/eslintrc/1.3.3",
+    "wanted": {
+      "dependentId": "/eslint/8.28.0",
+      "name": "@eslint/eslintrc",
+      "rawSpec": "^1.3.3"
+    }
+  },
+  "45 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@eslint/eslintrc/1.3.3",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "46 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/@humanwhocodes%2Fconfig-array: request to https://registry.npmjs.org/@humanwhocodes%2Fconfig-array failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/@humanwhocodes%2Fconfig-array: request to https://registry.npmjs.org/@humanwhocodes%2Fconfig-array failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "47 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/@humanwhocodes/config-array.json",
+  "48 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@humanwhocodes/config-array/0.11.7",
+    "wanted": {
+      "dependentId": "/eslint/8.28.0",
+      "name": "@humanwhocodes/config-array",
+      "rawSpec": "^0.11.6"
+    }
+  },
+  "49 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@humanwhocodes/config-array/0.11.7",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "50 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/debug: request to https://registry.npmjs.org/debug failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/debug: request to https://registry.npmjs.org/debug failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "51 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/debug.json",
+  "52 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/debug/4.3.4",
+    "wanted": {
+      "dependentId": "/eslint/8.28.0",
+      "name": "debug",
+      "rawSpec": "^4.3.2"
+    }
+  },
+  "53 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/debug/4.3.4",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "54 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/chalk: request to https://registry.npmjs.org/chalk failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/chalk: request to https://registry.npmjs.org/chalk failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "55 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/chalk.json",
+  "56 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/chalk/4.1.2",
+    "wanted": {
+      "dependentId": "/eslint/8.28.0",
+      "name": "chalk",
+      "rawSpec": "^4.0.0"
+    }
+  },
+  "57 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/chalk/4.1.2",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "58 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/doctrine: request to https://registry.npmjs.org/doctrine failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/doctrine: request to https://registry.npmjs.org/doctrine failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "59 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/doctrine.json",
+  "60 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/doctrine/3.0.0",
+    "wanted": {
+      "dependentId": "/eslint/8.28.0",
+      "name": "doctrine",
+      "rawSpec": "^3.0.0"
+    }
+  },
+  "61 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/doctrine/3.0.0",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "62 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "err": {
+      "name": "Error",
+      "message": "GET https://registry.npmjs.org/ajv: request to https://registry.npmjs.org/ajv failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "Error: GET https://registry.npmjs.org/ajv: request to https://registry.npmjs.org/ajv failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  },
+  "63 debug pnpm": "Using cached meta from /home/theia/.cache/pnpm/metadata/registry.npmjs.org/ajv.json",
+  "64 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/ajv/6.12.6",
+    "wanted": {
+      "dependentId": "/eslint/8.28.0",
+      "name": "ajv",
+      "rawSpec": "^6.10.0"
+    }
+  },
+  "65 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/ajv/6.12.6",
+    "requester": "/root/.nvm/versions/node/v14.18.2/pnpm-global/5",
+    "status": "resolved"
+  },
+  "66 error pnpm": {
+    "code": "ERR_PNPM_META_FETCH_FAIL",
+    "attempts": 1,
+    "pkgsStack": [
+      {
+        "id": "registry.npmjs.org/eslint/8.28.0",
+        "name": "eslint",
+        "version": "8.28.0"
+      }
+    ],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer: request to https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer failed, reason: Client network socket disconnected before secure TLS connection was established",
+      "code": "ERR_PNPM_META_FETCH_FAIL",
+      "stack": "pnpm: GET https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer: request to https://registry.npmjs.org/@humanwhocodes%2Fmodule-importer failed, reason: Client network socket disconnected before secure TLS connection was established\n    at RetryOperation._fn (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:85807:19)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)"
+    }
+  }
+}

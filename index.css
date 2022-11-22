@@ -1,0 +1,35 @@
+.bg {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mh1 {
+  color: white;
+  font-family: Bree serif;
+}
+.bon1 {
+  background-color: #eab308;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: Roboto;
+}
+.bon2 {
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: roboto;
+  color: black;
+}
+.bon3 {
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: roboto;
+  color: black;
+}
